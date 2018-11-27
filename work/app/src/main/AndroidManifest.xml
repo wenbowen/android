@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.w1936.first" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/a1"
+        android:label="系统设置"
+            android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activityMainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
