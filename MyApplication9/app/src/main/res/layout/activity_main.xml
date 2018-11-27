@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#fffe9aa4">
+
+    <EditText
+        android:id="@+id/en_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="19dp"
+        android:hint="请输入插入的英文"/>
+
+    <EditText
+        android:id="@+id/ch_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/en_edit"
+        android:layout_below="@+id/en_edit"
+        android:layout_marginTop="20dp"
+        android:hint="请输入插入的中文"/>
+
+    <Button
+        android:id="@+id/insert_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ch_edit"
+        android:onClick="insert"
+        android:background="@drawable/lee3"
+        android:text="Insert"/>
+
+    <EditText
+        android:id="@+id/search_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/insert_button"
+        android:layout_alignLeft="@+id/en_edit"
+        android:hint="请输入查询的文本"/>
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/insert_button"
+        android:layout_below="@+id/search_edit"
+        android:onClick="search"
+        android:background="@drawable/lee3"
+        android:text="Search"/>
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/lee3"
+        android:onClick="delete"
+        android:text="Delete"
+        android:layout_below="@+id/search_button"
+        android:layout_alignStart="@+id/search_button"
+        android:layout_marginTop="39dp" />
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/lee3"
+        android:onClick="update"
+        android:text="Update"
+        android:layout_below="@+id/delete_button"
+        android:layout_alignStart="@+id/delete_button"
+        android:layout_marginTop="42dp" />
+</RelativeLayout>
