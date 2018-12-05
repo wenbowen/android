@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\work\NetWorkTest\app\libs\fastjson-1.2.8-sources.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7f4134703499eedb0bc2edaccd6ffadf7eaabbc1">
+        <dex dex="D:\work\NetWorkTest\app\build\intermediates\pre-dexed\debug\fastjson-1.2.8-sources-d4bf45eff6316e11308e06e0fc4e83b253616fbd.jar" />
+    </item>
+    <item
+        jar="D:\work\NetWorkTest\app\libs\fastjson-1.2.8.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="aba3867820f46117ef0dfe760418b1bc0278894f">
+        <dex dex="D:\work\NetWorkTest\app\build\intermediates\pre-dexed\debug\fastjson-1.2.8-bb80422bffea30b4bc2241d37b86d1ac10ff0ba8.jar" />
+    </item>
+
+</items>
